@@ -20,3 +20,15 @@
 # "i would like " + 5 + " tacos"
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
+
+# first die
+ham = rand(1..6)
+puts "Die 1 is #{ham}"
+
+# second die
+cheese = rand(1..6)
+puts "Die 2 is #{cheese}"
+
+# Total
+total = ham + cheese
+puts "Total is #{total}"
